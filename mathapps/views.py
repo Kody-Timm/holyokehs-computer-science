@@ -4,4 +4,4 @@ from django.template import Context, loader
 
 def index(request):
     
-    return render(request, 'templates/mathapps/index.html', context)
+    return render(request, 'mathapps/templates/mathapps/index.html', context)
