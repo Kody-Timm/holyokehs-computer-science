@@ -5,5 +5,4 @@ from django.shortcuts import render
 from . import views
 
 def index(request):
-    
-    return render(request, 'Hello World')
+    return render(request, 'mathapps/index.html')
